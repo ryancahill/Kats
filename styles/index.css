@@ -1,0 +1,33 @@
+body {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+div.gallery {
+  margin: 10px;
+  float: left;
+  width: 200px;
+}
+
+div.gallery img:hover {
+  border: 3px solid #0000FF;
+}
+
+div.gallery img {
+  border: 3px solid #ccc;
+  width: 200px;
+  height: 200px;
+}
+
+div.desc {
+  text-align: center;
+  padding: 5px;
+  width:200px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+}
